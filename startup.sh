@@ -2,7 +2,7 @@
 
 CHECK=`ps aux | grep "python -m SimpleHTTPServer 8080" | wc -l`
 
-if [ $CHECK -lt 2]; then
+if [ $CHECK -lt 2 ]; then
 
 	# Found this tutorial after the fact, looks good: https://www.danpurdy.co.uk/web-development/raspberry-pi-kiosk-screen-tutorial/
 
