@@ -32,7 +32,7 @@ if [ $CHECK -lt 2 ]; then
 		echo "Starting chromium"
 		sed -i 's/"exited_cleanly": false/"exited_cleanly": true/' /home/pi/.config/chromium/Default/Preferences
 		# Show chromium in kiosk mode (fullscreen)
-		chromium --noerrdialogs --kiosk http://localhost:8080
+		chromium --noerrdialogs --kiosk http://localhost:8080 >> /home/pi/chromium.log
 
 		echo "Chromium died"
 
