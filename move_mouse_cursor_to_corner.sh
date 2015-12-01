@@ -1,5 +1,5 @@
 #!/bin/bash
-export DISPLAY=:0
+export DISPLAY=:1
 
 while true; do
         sleep 2;

@@ -6,7 +6,7 @@ if [ $CHECK -lt 2 ]; then
 
 	# Found this tutorial after the fact, looks good: https://www.danpurdy.co.uk/web-development/raspberry-pi-kiosk-screen-tutorial/
 	echo "No started. Starting!"
-	export DISPLAY=:0
+	export DISPLAY=:1
 
 	# Turn off screen sleep
 	xset s off
