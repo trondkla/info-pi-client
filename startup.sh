@@ -21,7 +21,7 @@ if [ $CHECK -lt 2 ]; then
 	echo "Server started"
 
 	cd /home/pi/info-pi-client/
-	./move_mouse_cursor_to_corner.sh
+	./move_mouse_cursor_to_corner.sh &
 
 	echo "cursor moved"
 

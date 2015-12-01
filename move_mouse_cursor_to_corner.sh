@@ -1,4 +1,6 @@
 #!/bin/bash
+export DISPLAY=:0
+
 while true; do
         sleep 2;
         # Hide the cursor (move it to the bottom-right, comment out if you want mouse interaction)

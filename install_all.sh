@@ -1,7 +1,7 @@
 sudo su
 
 
-aptitude install xwit git nodejs npm x11-xserver-utils chromium screen ttf-mscorefonts-installer xrdp
+aptitude install xwit git nodejs npm x11-xserver-utils chromium screen ttf-mscorefonts-installer xrdp nohup
 
 # xwit => Controll mouse cursor
 # Git => code version control
@@ -26,4 +26,4 @@ chomod a+x *.sh
 
 # Legg inn sånn at startup kjører og!
 sudo su
-echo '/bin/bash /home/pi/info-pi-client/startup.sh' >> /etc/xdg/lxsession/LXDE/autostart
+echo '/bin/bash /home/pi/info-pi-client/startup.sh >> /home/pi/startup.log' >> /etc/xdg/lxsession/LXDE/autostart
