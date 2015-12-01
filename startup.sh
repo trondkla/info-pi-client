@@ -2,7 +2,7 @@
 
 # Found this tutorial after the fact, looks good: https://www.danpurdy.co.uk/web-development/raspberry-pi-kiosk-screen-tutorial/
 
-export DISPLAY=1
+export DISPLAY=:0
 
 # Turn off screen sleep
 xset s off
