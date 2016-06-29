@@ -38,5 +38,5 @@ if [ $CHECK -lt 2 ]; then
 
 		killall chromium
 	#done
-
+	killall python
 fi
