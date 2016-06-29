@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sudo service ntp stop
+sudo ntpdate -s time.nist.gov
+sudo service ntp start
+
 CHECK=`ps aux | grep "python -m SimpleHTTPServer 8080" | wc -l`
 echo "Checking if started"
 if [ $CHECK -lt 2 ]; then
